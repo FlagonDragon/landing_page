@@ -88,6 +88,26 @@ body {
 
 .three {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 25px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    padding-top: 100px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.credit {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1F2937;
+    padding-left: 600px;
+    padding-bottom: 85px;
 }
 
 button {
