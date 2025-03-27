@@ -1,4 +1,5 @@
 body {
+    margin: 0px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu
 }
 
@@ -64,22 +65,29 @@ body {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    margin: 50px;
 }
 
 .boxgroup {
     display: flex;
     gap: 50px;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 .box {
     max-width: 145px;
     text-align: center;
+    color: darkgray;
 }
 
 .box img {
     border-radius: 10px;
     border: 5px solid #3882F6;
+}
+
+.three {
+    background-color: #E5E7EB;
 }
 
 button {
