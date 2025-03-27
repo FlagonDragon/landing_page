@@ -1,0 +1,95 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu
+}
+
+.one {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+
+.heroleft {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+.one button {
+    color: #F9FAF8;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 40px;
+    margin-top: 16px;
+    border-radius: 10px;
+    border: none;
+}
+
+.heromain {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.herosec, .header a {
+    font-size: 18px;
+    color: #E5E7EB;   
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titletwo {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.boxgroup {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.box {
+    max-width: 145px;
+    text-align: center;
+}
+
+.box img {
+    border-radius: 10px;
+    border: 5px solid #3882F6;
+}
+
+button {
+    background-color: #3882F6;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 16px;
+}
