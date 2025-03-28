@@ -93,8 +93,8 @@ body {
 }
 
 .quote {
-    font-size: 25px;
-    font-weight: light;
+    font-size: 31px;
+    font-weight: 350;
     font-style: italic;
     color: #1F2937;
     padding-top: 100px;
@@ -106,8 +106,51 @@ body {
     font-size: 18px;
     font-weight: bold;
     color: #1F2937;
-    padding-left: 600px;
+    padding-left: 720px;
     padding-bottom: 85px;
+}
+
+.four {
+    padding: 90px 170px;
+    display: flex;
+    justify-content: center;
+}
+
+.popup {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 15px;
+    font-weight: 300;
+    border-radius: 5px;
+    padding: 40px 95px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+}
+
+.call {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.buttonfour button {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 15px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    padding: 17px;
 }
 
 button {
